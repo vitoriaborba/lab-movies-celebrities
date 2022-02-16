@@ -8,13 +8,24 @@
     <title>{{title}}</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div class="container">
+    <body> 
+    <nav class="nav-bar">
+      <ul class="nav-bar-ul">
+        <li><a class="nav-bar-item" href="/">Home</a></li>
+        <li> <a class="nav-bar-item" href="/celebrities">Celebrities</a></li> 
+        <li><a class="nav-bar-item" href="/celebrities/create">New Celebrity</a></li>
+        <li> <a class="nav-bar-item" href="/movies">Movies</a></li> 
+        <li> <a class="nav-bar-item" href="/movies/create">New Movie</a></li> 
+      </ul>
+    </nav>
       {{{body}}}
-    </div>
-
+  <footer><p>Welcome to {{title}}</p></footer>
     <script src="/javascripts/script.js"></script>
   </body>
 

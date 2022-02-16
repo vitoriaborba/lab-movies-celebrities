@@ -1,12 +1,19 @@
-<h2>Movie details</h2>
-<h3>{{movies.title}}</h3>
+<div class="body-single">
+  <div class="row">
+    <div class="container-single">
+      <h3>{{movies.title}}</h3>
 <p>{{movies.genre}}</p>
 <p>{{movies.plot}}</p>
 {{#each movies.cast}}
-<h4>{{this.name}}</h4>
+<h3>{{this.name}}</h3>
 <p>{{this.occupation}}</p>
 <p>{{this.catchPhrase}}</p>
 {{/each}}
 <form action="/movies/{{movies._id}}/delete" method="post">
 <button>Delete</button>
-</form>  
+</form>   
+    </div>
+ 
+</div>
+  </div>
+

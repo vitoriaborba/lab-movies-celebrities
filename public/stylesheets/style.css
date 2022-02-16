@@ -1,8 +1,185 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  background-color: #92a8c2;
+  text-align: center;
+}
+.nav-bar {
+  background-color: #c7680f;
+  padding: 14px 0;
+  width: 100vw;
 }
 
-a {
-  color: #00b7ff;
+.nav-bar a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.nav-bar-ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-around;
+}
+ li {
+  list-style-type: none;
+  text-align: center;
+}
+.nav-bar-item:hover {
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color:rgb(245, 245, 245) ;
+  font-size: larger;
+}
+.row a {
+  font-size: 1em;
+  text-decoration: none;
+  color:whitesmoke;
+  font-family: 'Chakra Petch', sans-serif;
+  border: whitesmoke solid 2px;
+  border-radius: 3px;
+  padding: 2px 10px;
+  background-color: transparent;
+  padding-right: 10px;
+
+}
+
+.container {
+  width: 600px;
+  height: 250px;
+  margin: 20px auto;
+  padding: 50px ;
+  background-color: transparent;
+  border: #c7680f solid 1px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-single {
+  width: 100vw;
+  height: 100vh;
+  margin: 20px 100px;
+  background-color: transparent;
+}
+
+.row a:hover {
+  border: rgb(2, 93, 116) solid 2px;
+  background-color: rgb(2, 93, 116);
+  color: whitesmoke;
+}
+.row button {
+  font-size: 1em;
+  text-decoration: none;
+  color: #aacef7;
+  border:#aacef7 solid 2px;
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin-left: 10px;
+  background-color: transparent;
+
+}
+.row button:hover {
+  background-color: rgb(160, 26, 3);
+  border: rgb(160, 26, 3) solid 2px;
+  color: whitesmoke;
+}
+.buttom {
+  display: flex;
+}
+.buttom-movie {
+  text-align: justify;
+}
+footer {
+  text-align: center;
+  background-color:#c7680f;
+  height: 30px;
+  color: whitesmoke;
+}
+h3{
+  color: #633102;
+}
+.body {
+  width: 100vw;
+  height: 100vh;
+}
+.body-single {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+}
+.body-index {
+background-image: url('https://www.typenetwork.com/assets_content/uploads/Horizontal-bands_mosaic.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+}
+.form form {
+  text-align: center;
+  font-size: 20px;
+ font-family: 'Chakra Petch', sans-serif;
+ padding-bottom: 130px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+padding-top: 50px;
+
+}
+
+.form button{
+ font-size: 1em;
+ max-width:100px;
+ text-decoration: none;
+ color:#c7680f;
+ font-family: 'Chakra Petch', sans-serif;
+ border: #c7680f solid 2px;
+ border-radius: 3px;
+ padding: 2px 6px;
+ margin-left: 10px;
+ background-color: transparent;
+ align-self: center;
+}
+
+.form button:hover {
+ border: rgb(2, 93, 116) solid 2px;
+ background-color: rgb(2, 93, 116);
+ color: #bfbfbf;
+}
+input {
+  width: 500px;
+  height: 50px;
+ background: transparent;
+ border: #ffffff solid 2px;
+ border-radius: 10px;
+ text-align: center;
+ margin:20px;
+ 
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: whitesmoke;
+  padding-bottom: 20px;
+
+}
+select {
+  width: 500px;
+  height: 80px;
+  background: transparent;
+  border: #ffffff solid 2px;
+  border-radius: 10px;
+  text-align: center;
+  color: whitesmoke;
 }
